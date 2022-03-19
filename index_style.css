@@ -1,6 +1,6 @@
 html,body{
     overflow-x: hidden;
-    overflow-y: hidden;
+    font-family: 'Oswald', sans-serif;
 }
 
 body{
@@ -8,6 +8,7 @@ body{
     padding: 0;
     background-color: #F5F0E1;
     color: black;
+
 }
 
 header{
@@ -78,20 +79,19 @@ nav .btn_nav:hover{
 
 #dl_btn{
     display: block;
-    min-width: 120px;
     height: fit-content;
     font-size: 20px;
-    color: black;
+    color: #F5F0E1;
     text-decoration: none;
     text-align: center;
     letter-spacing: 0.5px;
     margin-left: 50px;
     border: 1px solid black;
-    background-color: #FFC13B;
+    background-color: #1E3D59;
     border-radius: 10px;
     padding: 5px;
     font-weight: bold;
-
+    transition: all 0.3s ease-in-out;
     
 }
 
@@ -99,6 +99,7 @@ nav .btn_nav:hover{
     border: 1px solid #FFC13B;
     background-color: #F5F0E1;
     transition: all 0.3s ease-in-out;
+    color: black;
 }
 
 .corp{
@@ -216,9 +217,8 @@ nav .btn_nav:hover{
 }
 
 .link_btn a{
-    height: 20px;
     width: fit-content;
-    font-size: 20px;
+    height: 30px;
     color: black;
     text-decoration: none;
     text-align: center;
@@ -226,8 +226,10 @@ nav .btn_nav:hover{
     border: 1px solid black;
     background-color: #FFC13B;
     border-radius: 10px;
-    padding: 5px;
     font-weight: bold;
+    padding-left: 8px;
+    padding-right: 8px;
+    vertical-align:middle;
 }
 
 .link_btn a:hover{
@@ -270,7 +272,7 @@ nav .btn_nav:hover{
     }
 }
 
-@media only screen and (max-width: 1440px) and (max-height: 900px){
+@media only screen and (max-width: 1493px) and (max-height: 900px){
     .left_card{
         height: 105%;
     }
@@ -339,10 +341,6 @@ nav .btn_nav:hover{
 }
 
 @media only screen and (max-height: 1287px){
-    
-    #dl_btn{
-        font-size: 15px;
-    }
 
     nav{
         margin-left: 0;
